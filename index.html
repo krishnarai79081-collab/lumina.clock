@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <div class="container">
+        <header>
+            <h1>World Clock</h1>
+        </header>
+
+        <main>
+            <section class="local-clock glass-panel">
+                <h2>Your Local Time</h2>
+                <div class="time-display" id="local-time">--:--:--</div>
+                <div class="date-display" id="local-date">Loading...</div>
+            </section>
+
+            <section class="world-grid" id="world-grid">
+                <!-- World clocks will be injected here via JS -->
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
